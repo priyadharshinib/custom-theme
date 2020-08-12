@@ -30,7 +30,7 @@
 /* /website/static/src/scss/primary_variables.scss defined in bundle 'web.assets_frontend' */
  
 
-/* /website/static/src/scss/options/user_values.scss defined in bundle 'web.assets_frontend' */
+/* /website/static/src/scss/options/user_values.custom.web.assets_common.scss defined in bundle 'web.assets_frontend' */
  
 
 /* /website/static/src/scss/options/colors/user_color_palette.scss defined in bundle 'web.assets_frontend' */
@@ -107,3 +107,6 @@
 
 /* /website_mail/static/src/css/website_mail.scss defined in bundle 'web.assets_frontend' */
  .js_follow[data-follow='on'] .js_follow_btn, .js_follow[data-follow='off'] .js_unfollow_btn{display: none;}.js_follow_icons_container .js_follow_btn, .js_follow_icons_container .js_unfollow_btn{animation: js_follow_fade 1s ease forwards; opacity: 0;}.js_follow_icons_container .js_follow_btn small, .js_follow_icons_container .js_unfollow_btn small{opacity: 0; transition: opacity 0.3s ease;}.js_follow_icons_container .js_follow_btn:hover small, .js_follow_icons_container .js_follow_btn:focus small, .js_follow_icons_container .js_unfollow_btn:hover small, .js_follow_icons_container .js_unfollow_btn:focus small{transition-duration: 1s; opacity: 1;}.js_follow_icons_container .fa:before{content: "\f0f3"; color: #6c757d;}.js_follow_icons_container .js_follow_btn:hover .fa:before{color: #212529;}.js_follow_icons_container .js_unfollow_btn .fa:before{color: #00A09D;}.js_follow_icons_container .js_unfollow_btn:hover .fa:before{content: "\f1f6"; color: #dc3545;}@keyframes js_follow_fade{to{opacity: 1;}}
+
+/* /theme_mystylishtheme/static/style.scss defined in bundle 'web.assets_frontend' */
+ .services{background: #EAEAEA; padding: 1em; margin: 2em 0 3em;}.services li{display: block; position: relative; background-color: #16a085; color: #FFF; padding: 2em; text-align: center; margin-bottom: 1em; font-size: 1.5em;}
